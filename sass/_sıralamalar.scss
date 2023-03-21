@@ -1,0 +1,39 @@
+
+header:has(#satışlar:checked) + .container .hisse {
+    order: var(--satışlar);
+}
+header:has(#satışlar:checked) + .container .hisse .grid-1:nth-of-type(1) {
+    background-color: white;
+}
+
+
+header:has(#favök:checked) + .container .hisse {
+    order: var(--favök);
+}
+header:has(#favök:checked) + .container .hisse .grid-1:nth-of-type(2) {
+    background-color: white;
+}
+
+
+header:has(#net:checked) + .container .hisse {
+    order: var(--net);
+}
+header:has(#net:checked) + .container .hisse .grid-1:nth-of-type(3) {
+    background-color: white;
+}
+
+
+header:has(#özsermaye:checked) + .container .hisse {
+    order: var(--özsermaye);
+}
+header:has(#özsermaye:checked) + .container .hisse .grid-1:nth-of-type(4) {
+    background-color: white;
+}
+
+
+header:has(#yabancı:checked) + .container .hisse {
+    order: var(--yabancı);
+}
+header:has(#yabancı:checked) + .container .hisse .grid-1:nth-of-type(6) {
+    background-color: white;
+}

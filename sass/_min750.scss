@@ -1,0 +1,56 @@
+
+@media (min-width:750px) {
+
+    body{
+
+        header {
+    
+            nav {
+                height: 75.59px;
+
+                .bist-container {
+
+                    .bist {
+                        position: relative;
+
+                        &:hover ul {
+                            width: 50vw ;
+                        }
+                    }
+                }
+                
+            }
+        }
+
+
+        .hisse  {
+
+            .grid-1 {
+
+                &__item-1{
+                        grid-column: 2/4;
+                }
+                &__item-2{
+                        grid-column: 3/4;
+                        justify-self: flex-end;
+                }
+
+                &__item-3{
+                    grid-column: 2/4;
+                }
+                &__item-4{
+                        grid-column: 3/4;
+                        justify-self: start;
+                }
+
+                &__item-5{
+                        grid-column: 2/4;
+                }
+                &__item-6 {
+                        grid-column: 3/4;
+                        justify-self: center;
+                }
+            }
+        }
+    }
+}

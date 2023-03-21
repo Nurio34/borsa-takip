@@ -1,0 +1,2682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./css/style.min.css">
+
+    <link rel="stylesheet" href="https://kit.fontawesome.com/b69fb5b7db.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b69fb5b7db.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="menü">
+        <nav>
+            <!-- <div class="open-menu">
+                <input type="radio" name="Menu" id="open">
+                <label class="open" for="open">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div> -->
+
+            <div class="bist-container">
+                <!-- <div class="close-menu">
+                    <input type="radio" name="Menu" id="close">
+                    <label for="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                </div> -->
+
+                
+                <div class="bist30 bist" >bist 30 <i class="fa-sharp fa-solid fa-caret-up"></i>
+                    <ul>
+                        <li><a href="#bimas">bimas</a></li>
+                        <li><a href="#froto">froto</a></li>
+                        <li><a href="#hekts">hekts</a></li>
+                        <li><a href="#kchol">kchol</a></li>
+                        <li><a href="#sasa">sasa</a></li>
+                        <li><a href="#sise">sise</a></li>
+                        <li><a href="#tkfen">tkfen</a></li>
+                        <li><a href="#tuprs">tuprs</a></li>
+                        
+                        
+                    </ul>
+                </div>
+
+
+                <div class="bist50 bist" >bist 50 <i class="fa-sharp fa-solid fa-caret-up"></i>
+                    <ul>
+                        <li><a href="#aksa">aksa</a></li>
+                        <li><a href="#alark">alark</a></li>
+                        <li><a href="#kontr">kontr</a></li>
+                        <li><a href="#kords">kords</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="bist100 bist" >bist 100 <i class="fa-sharp fa-solid fa-caret-up"></i>
+                    <ul>
+                        <li><a href="#alkim">alkim</a></li>
+                        <li><a href="#cemts">cemts</a></li>
+                        <li><a href="#erbos">erbos</a></li>
+                        <li><a href="#selec">selec</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="diğer bist" >diğer <i class="fa-sharp fa-solid fa-caret-up"></i>
+                    <ul>
+                        <li><a href="#akmgy">akmgy</a></li>
+                        <li><a href="#blcyt">blcyt</a></li>
+                        <li><a href="#bossa">bossa</a></li>
+                        <li><a href="#escom">escom</a></li>
+                        <li><a href="#gedza">gedza</a></li>
+                        <li><a href="#gsdde">gsdde</a></li>
+                        <li><a href="#kartn">kartn</a></li>
+                        <li><a href="#knfrt">knfrt</a></li>
+                        <li><a href="#miatk">miatk</a></li>
+                        <li><a href="#mndtr">mndtr</a></li>
+                        <li><a href="#orge">orge</a></li>
+                        <li><a href="#ozkgy">ozkgy</a></li>
+                        <li><a href="#parsn">parsn</a></li>
+                        <li><a href="#ralyh">ralyh</a></li>
+                        <li><a href="#sarky">sarky</a></li>
+                    </ul>
+                </div> 
+            </div>
+
+            <div class="sırala">
+                <input type="checkbox" name="başlık" id="başlık">
+                <label for="başlık">sırala</label>
+                <ul >
+                    <li>
+                        <input type="radio" name="sırala" id="satışlar">
+                        <label for="satışlar">satışlara göre</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="sırala" id="favök">
+                        <label for="favök">favöke göre</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="sırala" id="net">
+                        <label for="net">net kara göre</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="sırala" id="özsermaye">
+                        <label for="özsermaye">özsermayeye göre</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="sırala" id="yabancı">
+                        <label for="yabancı">yabancı oranına göre</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="theme">
+                <input type="radio" name="theme" id="dark" >
+                <label class="dark" for="dark">Night Mode</label>
+
+                <input type="radio" name="theme" id="light">
+                <label class="light" for="light">Day Mode</label>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container">
+
+        <div class="hisse" id="bimas"           style="--satışlar: 23 ; --favök: 16 ; --net: 23 ; --özsermaye: 14 ; --yabancı: 2 ">
+            <div class="hisse__isim">
+                <a href="https://www.bim.com.tr/">bimas</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1635343618511609856/photo/1">
+                    <img src="./images/Fintables/Bimas.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3ABIMAS">
+                    <img src="./images/Grafik/Bimas.png" alt="">
+                </a>
+               <a href="https://www.bim.com.tr/FaaliyetRaporlari/2022/Faaliyet%20Raporu%202022.pdf">bimas: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%109</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%496</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%18,13</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%80</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%819</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%8,03</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%178</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%847</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%5,52</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%231</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%754</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%49,73</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%60</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%44,47</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">10,82</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2 ">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">belirsiz</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">belirsiz</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="froto"           style="--satışlar: 19 ; --favök: 12 ; --net: 18 ; --özsermaye: 21 ; --yabancı: 4 ">
+            <div class="hisse__isim">
+                <a href="https://www.fordotosan.com.tr/tr">froto</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1633557594437750784/photo/1">
+                    <img src="./images/Fintables/Froto.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3Afroto">
+                    <img src="./images/Grafik/Froto.png" alt="">
+                </a>
+               <a href="https://www.fordotosan.com.tr/tr/yatirimcilar/finansal-raporlar/faaliyet-raporlari">Froto: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%141</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%576</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%13,94</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%100</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%936</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%11,48</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%111</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1228</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%10,83</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%111</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%490</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%117,99</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%20,31</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%40,51</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2">11,6</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yurtdışı</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="hekts"           style="--satışlar: 4 ; --favök: 4 ; --net: 14 ; --özsermaye: 2 ; --yabancı: 8 ">
+            <div class="hisse__isim">
+                <a href="https://hektas.com.tr/">hekts</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1625962657193795584/photo/1">
+                    <img src="./images/Fintables/Hekts.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3AHEKTS">
+                    <img src="./images/Grafik/Hekts.png" alt="">
+                </a>
+               <a href="https://hektas.com.tr/wp-content/uploads/2023/02/HEK_FRAT_2022_uyg72-min.pdf">hekts: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%158</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1992</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%40,11</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%205</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%2484</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%32,11</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%148</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1532</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%15,32</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%145</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%2385</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%32,67</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%41</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%19,54</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 dikkat">104,7</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2 dikkat">var</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yurtiçi</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+        
+        <div class="hisse" id="kchol"           style="--satışlar: 8 ; --favök: 6 ; --net: 17 ; --özsermaye: 25 ; --yabancı: 1 ">
+            <div class="hisse__isim">
+                <a href="https://www.koc.com.tr/">kchol</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1625962657193795584/photo/1">
+                    <img src="./images/Fintables/Kchol.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=KCHOL">
+                    <img src="./images/Grafik/Kchol.png" alt="">
+                </a>
+               <a href="https://cdn.koc.com.tr/cmscontainer/kocholding/media/koc/03yatirimci-iliskileri/yatirimci-seti/koc-holding-2022-faaliyet-raporu.pdf?ext=.pdf">kchol: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%160</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%812</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%25,15</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%218</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1738</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%18,43</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%359</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1324</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%7,74</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%135</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%398</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%65,55</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%22</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%57,27</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2">3,25</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yurtiçi</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="sasa"            style="--satışlar: 5 ; --favök: 5 ; --net: 6 ; --özsermaye: 5 ; --yabancı: 11 ">
+            <div class="hisse__isim">
+                <a href="https://www.sasa.com.tr/">sasa</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1636236809792307200/photo/1">
+                    <img src="./images/Fintables/Sasa.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3ASASA">
+                    <img src="./images/Grafik/Sasa.png" alt="">
+                </a>
+               <a href="https://www.sasa.com.tr/Upload/Dosyalar/2022-Yonetim-Kurulu-Faaliyet-Raporu.pdf">sasa: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%112</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1782</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%22,10</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%76</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%2460</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%19,80</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%1430</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%5190</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%34,09</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%298</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1353</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%102,89</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%23</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%14,64</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">24,29</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2 ">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yurtiçi</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="sise"            style="--satışlar: 11 ; --favök: 18 ; --net: 16 ; --özsermaye: 15 ; --yabancı: 5 ">
+            <div class="hisse__isim">
+                <a href="https://www.sisecam.com.tr/tr/">sise</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1621560350003892224/photo/1">
+                    <img src="./images/Fintables/Sise.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3ASISE">
+                    <img src="./images/Grafik/Sise.png" alt="">
+                </a>
+               <a href="https://www.sisecam.com.tr/sites/catalogs/tr/Investor%20Relations/Presentations%20and%20Bulletins/Annual%20Reports/sisecamfaaliyetraporu2022.pdf">sise: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%197</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%742</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%33,35</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%170</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%738</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%21,45</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%113</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1485</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%20,29</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%92</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%678</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%33,26</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%48,88</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%26,52</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">7,74</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">eşit</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="tkfen"           style="--satışlar: 27 ; --favök: 27 ; --net: 29 ; --özsermaye: 29 ; --yabancı: 7 ">
+            <div class="hisse__isim">
+                <a href="https://www.tekfen.com.tr/">tkfen</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1633191436865900546/photo/1">
+                    <img src="./images/Fintables/Tkfen.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3ATKFEN">
+                    <img src="./images/Grafik/Tkfen.png" alt="">
+                </a>
+               <a href="https://www.tekfen.com.tr/Uploads/pdfs/83202384544131tekfen-faaliyet-raporu-tr-2022-web.pdf">tkfen: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%89</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%309</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%11,77</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%287</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%213</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%5,91</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%318</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%350</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%11,33</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%37</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%250</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%38,54</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%41,62</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%20,08</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">4,43</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yurtiçi</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+        
+        <div class="hisse" id="tuprs"           style="--satışlar: 10 ; --favök: 14 ; --net: 20 ; --özsermaye: 19 ; --yabancı: 3 ">
+            <div class="hisse__isim">
+                <a href="https://www.tupras.com.tr/">tuprs</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1621560350003892224/photo/1">
+                    <img src="./images/Fintables/Tuprs.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3ATUPRS">
+                    <img src="./images/Grafik/Tuprs.png" alt="">
+                </a>
+               <a href="https://tprstaticfilessa.blob.core.windows.net/assets/uploads/faaliyet-raporlari/tupras_2022_faaliyet_raporu.pdf">tuprs: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%215</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%793</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%13,03</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%314</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%885</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%11,52</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%1075</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%977</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%8,52</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%255</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%543</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%95,95</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%49</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%42,97</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">4,32</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yurtiçi</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="aksa"            style="--satışlar: 20 ; --favök: 21 ; --net: 13 ; --özsermaye: 27 ; --yabancı: 6 ">
+            <div class="hisse__isim">
+                <a href="https://www.aksa.com/tr">aksa</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1625900083005849601/photo/1">
+                    <img src="./images/Fintables/Aksa.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3AAKSA">
+                    <img src="./images/Grafik/Aksa.png" alt="">
+                </a>
+               <a href="https://www.aksa.com/ca/docs/BCFB40253CB9417AA1FB02EC997C0B/38CE168DDEA741538F246FB2B6778130.pdf">Aksa: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%107</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%544</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%21,7</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%129</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%680</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%22,57</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%209</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1600</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%19,61</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%103</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%338</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%79,82</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%35,4</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%25,69</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2">8,1</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yurtiçi</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="alark"           style="--satışlar: 7 ; --favök: 17 ; --net: 7 ; --özsermaye: 11  ; --yabancı: 10 ">
+            <div class="hisse__isim">
+                <a href="https://www.alarko.com.tr/tr/ana-sayfa">alark</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1634264836484767746/photo/1">
+                    <img src="./images/Fintables/Alark.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=ALA">
+                    <img src="./images/Grafik/Alark.png" alt="">
+                </a>
+               <a href="https://www.alarko.com.tr/download/9339">alark: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%253</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%955</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%13,08</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">belirsiz</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%783</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%8,32</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%797</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%4627</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%160,61</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%304</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%949</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%304</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%26</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%16,33</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">2,74</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yurtdışı</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="kontr"           style="--satışlar: 1 ; --favök: 0 ; --net: 1 ; --özsermaye: 0; --yabancı: 19 ">
+            <div class="hisse__isim">
+                <a href="https://www.kontrolmatik.com/">kontr</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1632166429645471748/photo/1">
+                    <img src="./images/Fintables/Kontr.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3AKONTR">
+                    <img src="./images/Grafik/Kontr.png" alt="">
+                </a>
+               <a href="https://www.kontrolmatik.com/media/bhgjl1iu/kontrolmatik-2022-y%C4%B1l%C4%B1-konsolide-faaliyet-raporu.pdf">kontr: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%193</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%5061</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%26,92</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%216</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%14122</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%21,52</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%253</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%46851</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%26,19</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%353</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%12089</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%59,93</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%39</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%6,3</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 dikkat">66,43</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">eşit</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+        
+        <div class="hisse" id="kords"           style="--satışlar: 14 ; --favök: 24 ; --net: 27 ; --özsermaye: 20 ; --yabancı: 13 ">
+            <div class="hisse__isim">
+                <a href="https://kordsa.com/tr/">kords</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1628886930183147527/photo/1">
+                    <img src="./images/Fintables/Kords.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3AKORDS">
+                    <img src="./images/Grafik/Kords.png" alt="">
+                </a>
+               <a href="https://kordsa.com/tr/images/pdf/31-mart-2022-hesap-donemine-ait-yonetim-kurulu-faaliyet-raporu.pdf">kords: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%133</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%643</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%18,22</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%77</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%551</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%11,67</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%68</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%500</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%6,99</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%52</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%530</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%19,44</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%28</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%10,10</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">11,71</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">belirsiz</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">belirsiz</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="alkim"           style="--satışlar: 9 ; --favök: 13 ; --net: 24 ; --özsermaye: 23 ; --yabancı: 15 ">
+            <div class="hisse__isim">
+                <a href="https://www.alkim.com.tr/">alkim</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1630652719852650498/photo/1">
+                    <img src="./images/Fintables/Alkim.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3AALKIM">
+                    <img src="./images/Grafik/Alkim.png" alt="">
+                </a>
+               <a href="https://www.alkim.com.tr/files/file/dosya-6AdzJetUP9u3OGC-2022-yili-faaliyet-raporu.pdf">alkim: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%170</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%800</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%31,55</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%250</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%900</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%27,39</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%150</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%773</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%20,46</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%80</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%450</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%64,73</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%46,5</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">8,34</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2">8,4</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">belirsiz</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">belirsiz</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="cemts"           style="--satışlar: 12 ; --favök: 9 ; --net: 21 ; --özsermaye: 13 ; --yabancı: 22 ">
+            <div class="hisse__isim">
+                <a href="https://www.cemtas.com.tr/">cemts</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1627689209900277760/photo/1">
+                    <img src="./images/Fintables/Cemts.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3ACEMTS">
+                    <img src="./images/Grafik/Cemts.png" alt="">
+                </a>
+               <a href="https://www.cemtas.com.tr/images/uploads/cemts_yk_faaliyet_03_2022.pdf">cemts: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%120</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%725</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%31,22</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%200</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1185</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%27,84</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%125</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%900</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%28,85</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%100</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%800</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%66,69</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%42,1</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%3,19</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2">5,4</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yurtiçi</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="erbos"           style="--satışlar: 22 ; --favök: 23 ; --net: 28 ; --özsermaye: 12 ; --yabancı: 21 ">
+            <div class="hisse__isim">
+                <a href="https://erbosan.com.tr/">erbos</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1630594365012705280/photo/1">
+                    <img src="./images/Fintables/Erbos.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3AERBOS">
+                    <img src="./images/Grafik/Erbos.png" alt="">
+                </a>
+               <a href="https://erbosan.com.tr/finansal-raporlar/#1510835039280-59f00f9e-02b0">erbos: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%100</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%515</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%25,56</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%81</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%601</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%17,49</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%57</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%455</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%14,9</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%36</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%857</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%44,15</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%54</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%4,3</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2">7,5</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">belirsiz</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">belirsiz</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="selec"           style="--satışlar: 26 ; --favök: 15 ; --net: 26 ; --özsermaye: 30 ; --yabancı: 9 ">
+            <div class="hisse__isim">
+                <a href="https://selcukecza.com.tr/">selec</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1629148290993332225/photo/1">
+                    <img src="./images/Fintables/Selec.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3ASELEC">
+                    <img src="./images/Grafik/Selec.png" alt="">
+                </a>
+               <a href="https://selcukecza.com.tr/dosyalar/yatirimciiliskiler/2022-yillik-faaliyet-raporu-144.pdf">selec: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%70</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%318</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%11,2</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%163</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%846</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%6,79</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%158</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%693</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%5,33</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%46</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%197</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%44,34</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%36,26</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%18,89</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">9,61</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yurt içi</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="akmgy"           style="--satışlar: 28 ; --favök: 28 ; --net: 15 ; --özsermaye: 6 ; --yabancı: 30 ">
+            <div class="hisse__isim">
+                <a href="https://www.akmgyo.com/">akmgy (bist100 dışı)</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1630265400465170440/photo/1">
+                    <img src="./images/Fintables/Akmgy.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3AAKMGY">
+                    <img src="./images/Grafik/Akmgy.png" alt="">
+                </a>
+               <a href="https://www.akmgyo.com/media/2171/2022-yonetim-kurulu-faaliyet-raporu.pdf">akmgy: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%83</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%100</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%77,03</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%72</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%85</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%70,91</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%93</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1510</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%559,52</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%52</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1321</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%45,99</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%8</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%0,07</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk - pd/dd</div>
+                    <span class="grid-1__item-2 ">2,48 - 0,94</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2 ">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">belirsiz</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">belirsiz</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="blcyt"           style="--satışlar: 25 ; --favök: 26 ; --net: 11 ; --özsermaye: 10 ; --yabancı: 17 ">
+            <div class="hisse__isim">
+                <a href="https://www.biliciyatirim.com/">blcyt (bist100 dışı)</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1632760839781380097/photo/1">
+                    <img src="./images/Fintables/Blcyt.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3ABLCYT">
+                    <img src="./images/Grafik/Blcyt.png" alt="">
+                </a>
+               <a href="https://www.biliciyatirim.com/faaliyet-raporlari">blcyt: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%109</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%378</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%28,51</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%66</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%334</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%30,07</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%210</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1966</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%46,72</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%110</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%952</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%42,33</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%32</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%8,07</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">4,32</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2 ">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yutiçi</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="bossa"           style="--satışlar: 18 ; --favök: 25 ; --net: 8 ; --özsermaye: 3 ; --yabancı: 27 ">
+            <div class="hisse__isim">
+                <a href="http://www.bossa.com.tr/index.php">bossa (bist100 dışı)</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1628802513146085376/photo/1">
+                    <img src="./images/Fintables/Bossa.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3ABOSSA">
+                    <img src="./images/Grafik/Bossa.png" alt="">
+                </a>
+               <a href="http://www.bossa.com.tr/pdf/12_Ayl%C4%B1k_Y%C3%B6netim_Kurulu_Faaliyet_Raporu_2022.pdf">bossa: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%93</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%605</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%22,42</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%5</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%515</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%15,44</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%153</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%4163</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%31,20</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%88</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1965</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%62,11</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%14</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%0,63</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk - pd/dd</div>
+                    <span class="grid-1__item-2 ">6,22</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2 dikkat">var</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yutiçi</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="escom"           style="--satışlar: 29 ; --favök: 29 ; --net: 0 ; --özsermaye: 17 ; --yabancı: 14 ">
+            <div class="hisse__isim">
+                <a href="https://www.escort.com.tr/">escom (bist100 dışı)</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1630265400465170440/photo/1">
+                    <img src="./images/Fintables/Escom.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3AESCOM">
+                    <img src="./images/Grafik/Escom.png" alt="">
+                </a>
+               <a href="https://www.escort.com.tr/wp-content/uploads/2023/03/Escom-31-12-2022_Faaliyet-raporu.pdf">escom: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%968</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%36</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%100</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">belirsiz</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">belirsiz</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%belirsiz</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%318</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%53645</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%20872</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%213</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%638</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%104</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%61</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%9,28</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">3,71</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2 ">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">belirsiz</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">belirsiz</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="gedza"           style="--satışlar: 16 ; --favök: 1 ; --net: 2 ; --özsermaye: 24 ; --yabancı: 20 ">
+            <div class="hisse__isim">
+                <a href="https://gedizambalaj.com/">gedza (bist100 dışı)</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1630954956210556928/photo/1">
+                    <img src="./images/Fintables/Gedza.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3AGEDZA">
+                    <img src="./images/Grafik/Gedza.png" alt="">
+                </a>
+               <a href="https://gedizambalaj.com/sayfa/index/faaliyet-raporlari/119">gedza: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%150</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%614</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%31,88</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%104</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%10532</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%27,36</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%38</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%13759</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%25,70</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%57</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%423</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%42,16</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%47</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%5,31</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">8,24</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2 ">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yutiçi</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="gsdde"           style="--satışlar: 24 ; --favök: 10 ; --net: 30 ; --özsermaye: 7 ; --yabancı: 28 ">
+            <div class="hisse__isim">
+                <a href="https://www.gsdmarin.com.tr/">gsdde (bist100 dışı)</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1635357989409529857/photo/1">
+                    <img src="./images/Fintables/Gsdde.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3AGSDDE">
+                    <img src="./images/Grafik/Gsdde.png" alt="">
+                </a>
+               <a href="https://www.gsdholding.com.tr/assets/contents/GSDDE-Konsolide%20Faaliyet%20Raporu-31.12.2022.pdf">gsdde: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%73</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%421</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%60,71</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%68</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%984</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%73,02</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%53</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">belirsiz</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%53</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%73</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1033</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%25,97</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%28</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%0,34</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">4,95</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2 dikkat ">var</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">belirsiz</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">belirsiz</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="kartn"           style="--satışlar: 17 ; --favök: 11 ; --net: 12 ; --özsermaye: 26 ; --yabancı: 25 ">
+            <div class="hisse__isim">
+                <a href="https://www.kartonsan.com.tr/tr/">kartn (bist100 dışı)</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1630985458174902272/photo/1">
+                    <img src="./images/Fintables/Kartn.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3AKARTN">
+                    <img src="./images/Grafik/Kartn.png" alt="">
+                </a>
+               <a href="https://www.kartonsan.com.tr/files/2023/Kartonsan_2022_Entegre_Faliyet-_Raporu.pdf">kartn: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%112</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%614</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%23,51</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%87</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%942</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%21,83</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%89</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1712</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%20,96</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%59</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%351</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%61,44</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%21</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%1,84</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">8,23</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yurtiçi</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="knfrt"           style="--satışlar: 3 ; --favök: 8 ; --net: 25 ; --özsermaye: 29 ; --yabancı: 29 ">
+            <div class="hisse__isim">
+                <a href="https://www.konfrut.com.tr/">knfrt (bist100 dışı)</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1635305608944709633/photo/1">
+                    <img src="./images/Fintables/Knfrt.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3AKNFRT">
+                    <img src="./images/Grafik/Knfrt.png" alt="">
+                </a>
+               <a href="https://www.konfrut.com.tr/files/pdf/konfrut_faaliyet_raporu_2022.pdf">knfrt: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%167</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%2828</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%14,85</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%140</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1288</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%11,54</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%156</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%753</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%5,93</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%66</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%313</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%46,12</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%22,00</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%0,14</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">16,61</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yutiçi</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="miatk"           style="--satışlar: 0 ; --favök: 2 ; --net: 4 ; --özsermaye: 4 ; --yabancı: 26 ">
+            <div class="hisse__isim">
+                <a href="https://www.miateknoloji.com/">miatk (bist100 dışı)</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1617556678852976640/photo/1">
+                    <img src="./images/Fintables/Miatk.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3AMIATK">
+                    <img src="./images/Grafik/Miatk.png" alt="">
+                </a>
+               <a href="https://miateknoloji.com/documents/MIA-Teknoloji-2022-Yili-Faaliyet-Raporu.pdf">miatk: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%268</span>
+                    <div class=" grid-1__item-3"><strong>4 yıllık büyüme</strong></div>
+                    <span class=" grid-1__item-4">%52583</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%54,87</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%464</span>
+                    <div class=" grid-1__item-3"><strong>4 yıllık büyüme</strong></div>
+                    <span class=" grid-1__item-4">%6117</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%56,16</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%510</span>
+                    <div class=" grid-1__item-3"><strong>4 yıllık büyüme</strong></div>
+                    <span class=" grid-1__item-4">%8836</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%54,70</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%134</span>
+                    <div class=" grid-1__item-3"><strong>4 yıllık büyüme</strong></div>
+                    <span class=" grid-1__item-4">%1695</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%134</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%43,00</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%1,00</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">13,20</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">belirsiz</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">belirsiz</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">belirsiz</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="mndtr"           style="--satışlar: 6 ; --favök: 7 ; --net: 9 ; --özsermaye: 9 ; --yabancı: 0 ">
+            <div class="hisse__isim">
+                <a href="https://www.mondigroup.com.tr/tr/ana-sayfa/">mndtr (bist100 dışı)</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1635421381130178560/photo/1">
+                    <img src="./images/Fintables/Mndtr.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3AMNDTR">
+                    <img src="./images/Grafik/Mndtr.png" alt="">
+                </a>
+               <a href="https://www.mondigroup.com.tr/tr/hakk%C4%B1m%C4%B1zda/yat%C4%B1r%C4%B1mc%C4%B1-%C4%B0li%C5%9Fkileri/faaliyet-raporlar%C4%B1/">mndtr: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%103</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%965</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%21,58</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%54</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1407</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%12,27</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%72</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%3827</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%10,66</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%210</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%955</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%53,70</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%15,00</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%82,59</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">6,37</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yurtiçi</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+        
+        <div class="hisse" id="orge"            style="--satışlar: 15 ; --favök: 20 ; --net: 22 ; --özsermaye: 16 ; --yabancı: 18 ">
+            <div class="hisse__isim">
+                <a href="https://www.orge.com.tr/">orge (bist100 dışı)</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://mobile.twitter.com/fintables/status/1633496478034558976/photo/1">
+                    <img src="./images/Fintables/Orge.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3AORGE">
+                    <img src="./images/Grafik/Orge.png" alt="">
+                </a>
+               <a href="https://www.orge.com.tr/faaliyet-raporlari/2022-yili-faaliyet-raporlari/">orge: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%136</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%635</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%42,39</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%180</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%700</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%40,11</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%200</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%867</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%43,02</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%94</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%650</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%61,32</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%46</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%8,03</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">6,42</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">belirsiz</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">belirsiz</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="ozkgy"           style="--satışlar: 2 ; --favök: 3 ; --net: 10 ; --özsermaye: 8 ; --yabancı: 12 ">
+            <div class="hisse__isim">
+                <a href="https://www.ozakgyo.com/">ozkgy (bist100 dışı)</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://mobile.twitter.com/fintables/status/1633496478034558976/photo/1">
+                    <img src="./images/Fintables/Ozkgy.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3AOZKGY">
+                    <img src="./images/Grafik/Ozkgy.png" alt="">
+                </a>
+               <a href="https://www.ozakgyo.com/yatirimci-iliskileri/finansal-raporlar">ozkgy: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%112</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%3406</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%68,42</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%177</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%3466</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%64,92</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%212</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%2848</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%354,78</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%148</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%969</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%83,44</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%25</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%13,10</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk - pd/dd</div>
+                    <span class="grid-1__item-2 ">1 - 0.58</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">belirsiz</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">belirsiz</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="parsn"           style="--satışlar: 13 ; --favök: 22 ; --net: 5 ; --özsermaye: 18  ; --yabancı: 23 ">
+            <div class="hisse__isim">
+                <a href="https://www.parsan.com/tr/">parsn (bist100 dışı)</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1631688806494609408/photo/1">
+                    <img src="./images/Fintables/Parsn.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3APARSN">
+                    <img src="./images/Grafik/Parsn.png" alt="">
+                </a>
+               <a href="https://www.parsan.com/tr/index.php/mali-tablo-ve-raporlar/">parsn: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%115</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%693</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%21,63</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%92</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%642</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%21,20</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%350</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%7300</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%29,55</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%187</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%569</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%31,02</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%28</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%3,17</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">6,18</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">yurtdışı</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="ralyh"           style="--satışlar: 30 ; --favök: 30 ; --net: 3 ; --özsermaye: 1 ; --yabancı: 24 ">
+            <div class="hisse__isim">
+                <a href="https://www.ralyatirim.com/#">ralyh (bist100 dışı)</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1633496448548634624/photo/1">
+                    <img src="./images/Fintables/Ralyh.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3ARALYH">
+                    <img src="./images/Grafik/Ralyh.png" alt="">
+                </a>
+               <a href="https://www.ralyatirim.com/finansal-bilgiler/faaliyet-raporlari.html">ralyh: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%30</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">belirsiz</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%39,10</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%249</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">Belirsiz</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%36,43</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%685</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%12578</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%62,40</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%272</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%2797</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%92,26</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2">%37,00</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%3,00</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">10,54</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2 dikkat">var</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">belirsiz</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">belirsiz</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+
+        <div class="hisse" id="sarky"           style="--satışlar: 21 ; --favök: 19 ; --net: 19 ; --özsermaye: 22 ; --yabancı: 16 ">
+            <div class="hisse__isim">
+                <a href="https://www.sarkuysan.com/tr-TR/anasayfa.aspx">sarky (bist100 dışı)</a>
+            </div>
+            <div class="hisse__grafik">
+                <a href="https://twitter.com/fintables/status/1635331537829765120/photo/1">
+                    <img src="./images/Fintables/Sarky.jfif" alt="">
+                </a>
+                <a href="https://tr.tradingview.com/chart/j5ynT7ws/?symbol=BIST%3ASARKY">
+                    <img src="./images/Grafik/Sarky.png" alt="">
+                </a>
+               <a href="https://www.sarkuysan.com/tr-TR/yillik-faaliyet-raporlari/94.aspx">sarky: Faaliyet Raporları</a>
+            </div>
+            <div class="hisse__tablo">
+                <div class="grid-1">
+                    <div class=" grid-1__item-1">satışlar büyüme</div>
+                    <span class=" grid-1__item-2">%97</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%531</span>
+                    <div class=" grid-1__item-5">brüt kar marjı</div>
+                    <span class=" grid-1__item-6">%6,03</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">faaliyet karı büyüme</div>
+                    <span class="grid-1__item-2">%85</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%729</span>
+                    <div class="grid-1__item-5">favök marjı</div>
+                    <span class="grid-1__item-6">%5,15</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">net kar büyüme</div>
+                    <span class="grid-1__item-2">%103</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%1187</span>
+                    <div class="grid-1__item-5">net kar marjı</div>
+                    <span class="grid-1__item-6">%4,12</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">özsermaye büyüme</div>
+                    <span class="grid-1__item-2">%75</span>
+                    <div class=" grid-1__item-3">5 yıllık büyüme</div>
+                    <span class=" grid-1__item-4">%462</span>
+                    <div class="grid-1__item-5">özsermaye karlılığı</div>
+                    <span class="grid-1__item-6">%56,80</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">halka açıklıklık</div>
+                    <span class="grid-1__item-2 dikkat">%83</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yabancı oranı</div>
+                    <span class="grid-1__item-2">%8,26</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">fk</div>
+                    <span class="grid-1__item-2 ">13,11</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">bedelli alışkanlığı</div>
+                    <span class="grid-1__item-2 ">yok</span>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-1__item-1">yurtdışı satış</div>
+                    <span class="grid-1__item-2">var</span>
+                    <div class="grid-1__item-3">ağırlık</div>
+                    <span class="grid-1__item-4">eşit</span>
+                </div>
+                <div class="flex-2">
+                    <div class="flex-2__item-1">arge</div>
+                    <span class="flex-2__item-2">arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.arge ile alakalı bilgiler.</span>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex-1__item-1">Notlar</div>
+                <div class="flex-1__item-2">hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya.hisse hakkında bilgiler buraya</div>
+            </div>
+            <div class="menu-link">
+                <a href="#menü">Go to Menü</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
